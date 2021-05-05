@@ -55,6 +55,8 @@ If you have setup everything according to the previous instructions, you should 
 % rename the file L0_optimization to L0_optimization_hom and move it to the folder containing the data  
 mv L0_optimization ../../data/L0_optimization_homotopy  
 
+cd ../../data  
+
 % run the code  
 taskset -c 0 ./L0_optimization_homotopy ./N100Q100SA_SNR3_rho0.8_K3_instance1/ 1 50 3
 
