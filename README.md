@@ -19,8 +19,8 @@ cardinality-constrained and cardinality-penalized least-squares, and cardinality
 
 The code was implemented assuming to be run under c++. We have a dependency on:  
 
-* The Cplex solver to solve the QP during homotopy initialization. Cplex can be obtained from [here](https://www.ibm.com/fr-fr/analytics/cplex-optimizer) and academic licenses are available from [here](https://www.ibm.com/support/pages/ibm-ilog-optimization-academic-initiative).
-* The Armadillo linear algebra software library for the C++ programming language. Armadillo can be obtained from [here](https://www.ibm.com/fr-fr/analytics/cplex-optimizer) and he has their own dependency, described in their Readme page.
+* Cplex solver to solve the QP during homotopy initialization. Cplex can be obtained from [here](https://www.ibm.com/fr-fr/analytics/cplex-optimizer) and academic licenses are available from [here](https://www.ibm.com/support/pages/ibm-ilog-optimization-academic-initiative).
+* Armadillo linear algebra software library for the C++ programming language. Armadillo is included in the project files or it can be obtained from [here](http://arma.sourceforge.net/download.html). The Armadillo has their own dependency, described in their Readme page.
 
 ## Installing everything
 sudo apt install make  
