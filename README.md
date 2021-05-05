@@ -9,9 +9,8 @@ cardinality-constrained and cardinality-penalized least-squares, and cardinality
 
 # Structure of the repository
 * _./L0_optimization/_ contains the code for the MIP solver and the BaB solver.
-* _./armadillo-8.300.2/_
-* _./data/_  
-
+* _./data/_  contains the simulation data.
+* _./armadillo-8.300.2/_ contains the armadillo installation files.
 
 # Running the code
 
