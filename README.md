@@ -35,12 +35,12 @@ cmake .
 cd L0_optimization/Debug/  
 % edit the makefile (path cplex and path armadillo)  
 * -L/opt/ibm/ILOG/CPLEX_Studio128/cplex/lib/x86-64_linux/static_pic  
-* -L/home/rbenmhenni/Bureau/these/c++/workspace/armadillo-8.300.2  
+* -L/home/rbenmhenni/workspace/armadillo-8.300.2  
 * -L/opt/ibm/ILOG/CPLEX_Studio128/concert/lib/x86-64_linux/static_pic  
 
 % edit /src/subdir.mk (path cplex and path armadillo)  
 * -I/opt/ibm/ILOG/CPLEX_Studio128/cplex/include  
-* -I/home/rbenmhenni/Bureau/these/c++/workspace/armadillo-8.300.2/include  
+* -I/home/rbenmhenni/workspace/armadillo-8.300.2/include  
 * -I/opt/ibm/ILOG/CPLEX_Studio128/concert/include  
 
 
