@@ -77,7 +77,7 @@ If you have setup everything according to the previous instructions, you should 
 *  **3rd parameter:** maximum time allowed in seconds  
 *  **4th parameter:** K if the formulation is P2/0  
 
-## Output results to text file
+## Output results 
 
 The output of the results is done in text files :
 * **solution:**  
